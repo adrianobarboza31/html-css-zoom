@@ -23,9 +23,11 @@ main{
     width: 100%;
     height: calc(100vh - 150px);
     margin: 0 auto;
-    overflow: hidden;
     background-color: black;
+    overflow-y:scroll;
+    
 }
+
 footer{
     background-color: #222222;
     height: 80px;
@@ -55,6 +57,7 @@ footer{
     justify-content: space-between;
     color: white;
     align-items: center;
+    flex-wrap: wrap;
 }
 .fa{
     display: flex;
